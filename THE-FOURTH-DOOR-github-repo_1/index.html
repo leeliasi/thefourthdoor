@@ -1,0 +1,1349 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Fourth Door | Founder-led businesses, built until private equity comes asking</title>
+<meta name="description" content="The scale partnership that makes founder-led businesses institution-ready. We build with you until buyers come asking. Most applicants are declined.">
+<meta property="og:title" content="The Fourth Door">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="The Fourth Door">
+<meta property="og:url" content="https://thefourthdoor.co.uk/">
+<link rel="canonical" href="https://thefourthdoor.co.uk/">
+
+<meta property="og:image" content="https://thefourthdoor.co.uk/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://thefourthdoor.co.uk/og-image.png">
+<meta name="build" content="11.1">
+<!-- PREVIEW ONLY: delete this line before launch -->
+<meta name="robots" content="noindex, nofollow">
+<meta property="og:description" content="Your business has a ceiling. It's you. We mean that kindly. It's also the most fixable problem in your business.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%23282C20'/%3E%3Crect x='17' y='8' width='30' height='48' fill='none' stroke='%23EFEFE5' stroke-width='6'/%3E%3Cpolygon points='20,14 37,17 37,54 20,49' fill='%23D2FF00'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Mona+Sans:ital,wght@0,400;0,600;0,800;0,900;1,400&display=swap" rel="stylesheet">
+<script>document.documentElement.classList.add("js")</script>
+<style>
+:root{
+  --cream:#EFEFE5; --green:#282C20; --lime:#D2FF00; --orange:#FF6B00;
+  --white:#F4F4ED; --grey:#7A7D6F; --hair:#D8D8CB; --ink2:#1C1F16;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+::selection{background:var(--lime);color:var(--green)}
+html{scroll-behavior:smooth}
+body{background:var(--cream);color:var(--green);font-family:"Mona Sans",system-ui,Helvetica,Arial,sans-serif;font-size:17px;line-height:1.6;-webkit-font-smoothing:antialiased;overflow-x:clip}
+h1,h2,h3,.disp{font-family:Anton,"Arial Narrow",Impact,sans-serif;font-weight:400;text-transform:uppercase;line-height:1.06;letter-spacing:0}
+/* SAFETY NET: any heading carrying a lime highlight needs room, or the
+   highlight box overlaps the line above it. Placed here deliberately so
+   later class rules (.bigclaim, .thesis) can still override. */
+:where(h1,h2,h3):has(.hl){line-height:1.22}
+a{color:inherit;text-decoration:none}
+img{max-width:100%;display:block}
+.wrap{max-width:1280px;margin:0 auto;padding:0 28px}
+section{padding:84px 0;position:relative;scroll-margin-top:84px}
+.slide{display:flex;align-items:center;min-height:94svh;padding:70px 0}
+.slide>.wrap{width:100%}
+.eyebrow{font-weight:900;font-size:12px;letter-spacing:4px;text-transform:uppercase;color:var(--grey);margin-bottom:22px;display:flex;align-items:center;gap:14px}
+.eyebrow::before{content:"";width:34px;height:3px;background:var(--orange)}
+.hl{background:var(--lime);padding:0 10px;box-decoration-break:clone;-webkit-box-decoration-break:clone}
+.js .hl{background:none;background-image:linear-gradient(var(--lime),var(--lime));background-repeat:no-repeat;background-position:0 0;background-size:calc(var(--hp,1)*100%) 100%}
+.chip{display:inline-flex;align-items:center;gap:12px;background:var(--lime);color:var(--green);font-weight:900;font-size:14px;letter-spacing:1.5px;text-transform:uppercase;padding:18px 36px;border-radius:999px;transition:transform .18s ease,background .18s ease,color .18s ease}
+.chip:hover{background:var(--green);color:var(--lime)}
+.chip .arr{transition:transform .18s ease}
+.chip:hover .arr{transform:translateX(5px)}
+a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible,textarea:focus-visible{outline:3px solid var(--orange);outline-offset:3px}
+
+/* grain */
+body::after{content:"";position:fixed;inset:0;pointer-events:none;z-index:98;opacity:.05;
+background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='140' height='140'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2'/%3E%3C/filter%3E%3Crect width='140' height='140' filter='url(%23n)'/%3E%3C/svg%3E")}
+
+/* LOADER: the door opens */
+.loader{position:fixed;inset:0;z-index:200;display:flex;pointer-events:none}
+.loader .panel{flex:1;background:var(--green);display:flex;align-items:center;overflow:hidden}
+.loader .panel.l{justify-content:flex-end}
+.loader .panel span{font-family:Anton,Impact,sans-serif;color:var(--cream);font-size:clamp(28px,5vw,64px);text-transform:uppercase;white-space:nowrap;padding:0 10px}
+.loader .panel.l span{color:var(--lime)}
+.loader .panel.l{animation:doorL .9s cubic-bezier(.77,0,.18,1) .55s forwards}
+.loader .panel.r{animation:doorR .9s cubic-bezier(.77,0,.18,1) .55s forwards}
+.loader{animation:gone 0s linear 1.5s forwards}
+@keyframes doorL{to{transform:translateX(-101%)}}
+@keyframes doorR{to{transform:translateX(101%)}}
+@keyframes gone{to{visibility:hidden}}
+
+/* progress rail */
+.rail{position:fixed;right:22px;top:50%;transform:translateY(-50%);z-index:60;display:flex;flex-direction:column;gap:14px}
+.rail a{width:10px;height:10px;border-radius:50%;background:var(--hair);transition:background .2s,transform .2s}
+.rail a.on{background:var(--orange);transform:scale(1.5)}
+
+
+
+/* NAV */
+nav{position:sticky;top:0;z-index:70;background:var(--cream);border-bottom:1px solid var(--hair)}
+.pbar{height:3px}
+.pbar i{display:block;height:100%;width:0;background:var(--lime)}
+.navin{display:flex;align-items:center;justify-content:space-between;gap:clamp(28px,4vw,64px);padding:15px 28px;max-width:1280px;margin:0 auto}
+.lock{display:flex;align-items:center;gap:12px;font-weight:900;letter-spacing:2px;font-size:15px;flex:none}
+.navlinks{display:flex;gap:clamp(15px,1.7vw,26px);font-weight:700;font-size:13px;letter-spacing:.5px;text-transform:uppercase;min-width:0;flex-wrap:nowrap;white-space:nowrap}
+.navlinks a{position:relative;padding:4px 0;white-space:nowrap}
+.navlinks a::after{content:"";position:absolute;left:0;bottom:0;height:2px;width:0;background:var(--orange);transition:width .2s}
+.navlinks a:hover::after{width:100%}
+.altcta{display:inline-flex;align-items:center;gap:11px;font-weight:900;font-size:13px;letter-spacing:1.2px;text-transform:uppercase;border:2px solid var(--green);padding:16px 28px;border-radius:999px;transition:background .2s,color .2s}
+.altcta:hover{background:var(--green);color:var(--cream)}
+.navtool::before{content:"";display:inline-block;width:7px;height:7px;border-radius:50%;background:var(--orange);margin-right:8px;vertical-align:middle;transition:transform .2s ease}
+.navtool:hover::before{transform:scale(1.5)}
+.navtool.gated::before{background:transparent;border:2px solid var(--orange)}
+.navcta{background:var(--lime);padding:11px 24px;white-space:nowrap;flex:none;border-radius:999px;font-weight:900;font-size:12.5px;letter-spacing:1.5px;text-transform:uppercase;transition:background .2s,color .2s}
+.navcta:hover{background:var(--green);color:var(--lime)}
+
+
+/* MARK: the ajar door, open onto the light */
+.mark{width:44px;height:44px;flex:none;display:block;overflow:visible}
+.mark .m-fr{stroke:var(--green)}
+.mark .m-door{fill:var(--lime)}
+.mark .m-h{fill:var(--green)}
+.mark.rev .m-fr{stroke:var(--cream)}
+.mark.rev .m-door{fill:var(--lime)}
+.mark.rev .m-h{fill:var(--green)}
+.mark.big{width:150px;height:150px}
+
+/* HERO */
+.hero{padding:clamp(40px,7vh,110px) 0 clamp(30px,6vh,80px);position:relative;min-height:calc(100svh - 84px);display:flex;align-items:center;overflow:hidden}
+.hero>.wrap{width:100%}
+.hero h1{font-size:clamp(34px,min(11vw,14vh),168px);position:relative;z-index:2;line-height:.98}
+.hero h1 .line{display:block;overflow:hidden;padding-bottom:.07em;margin-bottom:-.07em;white-space:nowrap}
+.hero h1 .line span{display:block;transform:translateY(110%);animation:rise .8s cubic-bezier(.2,.7,.2,1) forwards}
+.hero h1 .line:nth-child(2) span{animation-delay:.12s}
+.hero h1 .line:nth-child(3) span{animation-delay:.24s}
+@keyframes rise{to{transform:none}}
+.hero h1 .line span.you{color:var(--green);background:var(--lime);padding:0 18px;display:inline-block;width:fit-content}
+.payoff{font-style:italic;font-weight:500;color:var(--grey);margin:clamp(14px,2.4vh,30px) 0 6px;font-size:clamp(15px,1.9vh,18px)}
+.sub{max-width:660px;font-size:clamp(16px,2.2vh,21px);font-weight:600;margin:clamp(12px,1.8vh,20px) 0 clamp(20px,4vh,44px)}
+.herobottom{display:flex;align-items:center;gap:clamp(14px,2.4vw,34px);flex-wrap:wrap}
+.scrollhint{font-size:12.5px;font-weight:900;letter-spacing:3px;text-transform:uppercase;color:var(--green);display:flex;align-items:center;gap:10px}
+.scrollhint i{display:inline-block;width:3px;height:34px;background:var(--orange);animation:drip 1.6s ease infinite}
+@keyframes drip{0%{transform:scaleY(0);transform-origin:top}50%{transform:scaleY(1);transform-origin:top}51%{transform-origin:bottom}100%{transform:scaleY(0);transform-origin:bottom}}
+.megadoor{position:absolute;right:4vw;top:64px;width:min(360px,25vw);height:565px;z-index:1;perspective:1400px;pointer-events:none}
+.megadoor .mframe{position:absolute;inset:0;border:9px solid rgba(40,44,32,.13)}
+.megadoor .mpanel{position:absolute;inset:9px;background:rgba(210,255,0,.10);border:3px solid rgba(40,44,32,.18);transform-origin:left center;transform:rotateY(calc(var(--dopen,0)*-72deg));will-change:transform}
+.megadoor .mhandle{position:absolute;right:14px;top:50%;width:10px;height:10px;border-radius:50%;background:var(--orange);opacity:.85}
+@media (prefers-reduced-motion:reduce){.megadoor .mpanel{transform:rotateY(-34deg)}}
+
+/* STATEMENT BANDS: full sentences, lit word by word on scroll */
+.stband{padding:80px 0;overflow:hidden}
+.stband .stline{font-family:Anton,"Arial Narrow",Impact,sans-serif;text-transform:uppercase;text-align:center;font-size:clamp(28px,4.8vw,60px);line-height:1.1;max-width:1150px;margin:0 auto;padding:0 28px}
+.stband.g{background:var(--green)}
+.stband.g span{color:var(--cream);transition:color .3s ease}
+.js .stband.g span{color:rgba(244,244,237,.16)}
+.js .stband.g span.lit{color:var(--cream)}
+.stband.g span.key.lit{color:var(--lime)}
+.stband.a{background:var(--lime)}
+.stband.a span{color:var(--green);transition:color .3s ease,background .3s ease}
+.js .stband.a span{color:rgba(40,44,32,.22)}
+.js .stband.a span.lit{color:var(--green)}
+.stband.a span.key.lit{background:var(--green);color:var(--lime);padding:0 8px}
+@media (prefers-reduced-motion:reduce){.stband span{color:inherit}.stband.g span{color:var(--cream)}.stband.g span.key{color:var(--lime)}.stband.a span{color:var(--green)}.stband.a span.key{background:var(--green);color:var(--lime);padding:0 8px}}
+
+/* WALL */
+.bigclaim{font-size:clamp(40px,6.2vw,92px);max-width:1100px;line-height:1.22}
+.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:0;margin-top:40px;border:1px solid var(--green)}
+.stat{padding:30px 30px;border-right:1px solid var(--green)}
+.stat:last-child{border-right:none}
+.stat .n{font-family:Anton,Impact,sans-serif;font-size:clamp(54px,6vw,86px);line-height:1}
+.stat .n small{font-size:.45em;vertical-align:top}
+.stat p{margin-top:12px;font-size:15px;font-weight:600}
+.stat .n{position:relative;z-index:1;display:inline-block}
+.stat .n::after{content:"";position:absolute;left:-8px;right:-8px;bottom:6px;height:40%;background:var(--lime);z-index:-1;transform:scaleX(0);transform-origin:left;transition:transform .6s cubic-bezier(.2,.7,.2,1) .9s}
+.stat.on .n::after{transform:scaleX(1)}
+
+.pull{margin-top:44px;background:var(--green);color:var(--cream);padding:44px;font-family:Anton,Impact,sans-serif;font-size:clamp(28px,4.4vw,52px);text-transform:uppercase;line-height:1.04;position:relative;overflow:hidden}
+.pull em{color:var(--lime);font-style:normal}
+.pull::after{content:"";position:absolute;right:-40px;top:-40px;width:220px;height:220px;background:var(--lime);opacity:.08;border-radius:50%}
+
+/* DOORS: sticky stack */
+.stack{margin-top:80px}
+.dcard{position:sticky;background:var(--white);border:1px solid var(--green);padding:60px;min-height:380px;display:grid;grid-template-columns:150px 1fr;gap:40px;align-items:start}
+.dcard:nth-child(1){top:96px}
+.dcard:nth-child(2){top:142px}
+.dcard:nth-child(3){top:188px}
+.dcard:nth-child(4){top:234px;background:var(--green);color:var(--cream);border-color:var(--green);min-height:460px}
+.dcard+.dcard{margin-top:40px}
+.dcard{transition:box-shadow .35s ease}
+.dcard.active{box-shadow:0 22px 60px rgba(40,44,32,.20)}
+.dcard>*{transition:opacity .35s ease}
+.dcard .dmini{position:absolute;top:0;left:0;right:0;padding:13px 30px;font-family:"Mona Sans",sans-serif;font-weight:900;font-size:12px;letter-spacing:2.5px;text-transform:uppercase;color:var(--green);background:var(--white);border-bottom:1px solid var(--hair);opacity:0;display:flex;justify-content:space-between}
+.dcard .dmini::after{content:"CLOSED";color:var(--orange)}
+.dopen{position:absolute;top:16px;right:22px;font-weight:900;font-size:12px;letter-spacing:2.5px;text-transform:uppercase;color:var(--green);background:var(--lime);padding:7px 16px;border-radius:999px}
+.dcard.buried>*:not(.dmini){opacity:0}
+.dcard.buried .dmini{opacity:1}
+.ddoor{width:120px}
+.ddnum{font-family:Anton,Impact,sans-serif;font-size:42px;display:block;margin-bottom:12px}
+.ddframe{position:relative;width:100px;height:148px;border:7px solid var(--green);background:rgba(40,44,32,.07);perspective:700px}
+.ddpanel{position:absolute;inset:0;background:var(--green);transform-origin:left center;transition:transform .55s cubic-bezier(.2,.7,.2,1)}
+.ddpanel::after{content:"";position:absolute;right:9px;top:50%;width:7px;height:7px;border-radius:50%;background:var(--cream)}
+.dcard:hover .ddpanel{transform:rotateY(-78deg)}
+.dcard:nth-child(4) .ddframe{border-color:var(--cream);background:rgba(210,255,0,.14)}
+.dcard:nth-child(4) .ddpanel{background:var(--lime);transform:rotateY(-58deg)}
+.dcard:nth-child(4) .ddpanel::after{background:var(--green)}
+.dcard:nth-child(4):hover .ddpanel{transform:rotateY(-80deg)}
+/* touchscreens have no hover, so the doors open as each card comes into view instead */
+@media (hover:none){
+  .dcard.active .ddpanel{transform:rotateY(-78deg)}
+  .dcard:nth-child(4).active .ddpanel{transform:rotateY(-80deg)}
+  .dcard.buried .ddpanel{transform:rotateY(0deg)}
+}
+.dcard:not(:nth-child(4)) .ddframe::before{content:"✕";position:absolute;inset:0;display:flex;align-items:center;justify-content:center;font-family:"Mona Sans",sans-serif;font-weight:900;font-size:38px;color:var(--orange);opacity:1}
+.dcard:nth-child(4) .ddframe::before{content:"✓";position:absolute;inset:0;display:flex;align-items:center;justify-content:center;font-family:"Mona Sans",sans-serif;font-weight:900;font-size:46px;color:var(--lime);opacity:1}
+@media (prefers-reduced-motion:reduce){.ddpanel{transition:none}}
+.dcard h3{font-size:clamp(30px,3.4vw,46px);margin-bottom:16px}
+.dcard p{font-size:17px;max-width:640px}
+.dtag{display:inline-block;margin-top:22px;font-weight:900;font-size:12px;letter-spacing:2.5px;text-transform:uppercase;color:var(--orange);border:2px solid var(--orange);padding:8px 18px;border-radius:999px}
+.dcard:nth-child(4) .dtag{color:var(--green);background:var(--lime);border-color:var(--lime)}
+
+
+/* BUILDS */
+
+.calclead{font-size:19px;font-weight:600;line-height:1.55;max-width:900px;margin-top:26px}
+.buildlead{font-size:19px;font-weight:600;line-height:1.55;max-width:900px;margin-top:26px}
+.builds{display:grid;grid-template-columns:1fr 1fr;gap:30px;margin-top:70px}
+.build{border:1px solid var(--green);background:var(--white);overflow:hidden}
+.bphoto{aspect-ratio:1/1;position:relative;overflow:hidden;background:var(--green)}
+.bphoto img{width:100%;height:100%;object-fit:cover;display:block;transition:transform .5s ease;filter:contrast(1.03)}
+.bphoto::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(40,44,32,0) 52%,rgba(40,44,32,.55));pointer-events:none}
+.build:hover .bphoto img{transform:scale(1.04)}
+
+.bbody{padding:28px}
+.build h3{font-size:34px}
+.bbody>p{min-height:104px}
+.brole{color:var(--orange);font-weight:900;font-size:13px;letter-spacing:2.5px;text-transform:uppercase;margin:8px 0 20px;display:flex;align-items:center;gap:12px}
+.brole::before{content:"";width:26px;height:3px;background:var(--orange);flex:none}
+.build ul{list-style:none;margin-top:14px}
+.build li{padding:10px 0;border-top:1px solid var(--hair);font-size:15.5px;font-weight:600;display:flex;gap:10px;min-height:78px;align-items:center}
+.build li::before{content:"→";color:var(--orange);font-weight:900}
+
+.together{margin-top:44px;max-width:900px;font-size:19px;line-height:1.55;font-weight:600;border-left:4px solid var(--orange);padding-left:26px}
+.thesis{margin-top:38px;font-family:Anton,Impact,sans-serif;text-transform:uppercase;font-size:clamp(26px,3.6vw,44px);line-height:1.28;max-width:1000px}
+
+/* SELECT */
+.cols{display:grid;grid-template-columns:1fr 1fr;gap:26px;margin-top:40px}
+.col{border:1px solid var(--green);padding:36px;background:var(--white)}
+.col.no{background:var(--green);color:var(--cream)}
+.col h3{font-size:30px;margin-bottom:24px}
+.col ul{list-style:none}
+.col li{padding:12px 0;border-top:1px solid var(--hair);font-size:16px;font-weight:600;display:flex;gap:12px;line-height:1.5;align-items:center;min-height:76px}
+.col.no li{border-top:1px solid rgba(244,244,237,.14)}
+.tick{color:var(--green);font-weight:900;flex:none;font-size:20px;line-height:1.3;width:22px;text-align:center}
+.col.no .tick{color:#FF8A3D}
+
+.selectnote{margin-top:34px;font-weight:700;font-size:19px;max-width:none}
+.work3{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;margin-top:44px}
+.wcard{border:1px solid var(--green);background:var(--white);padding:32px}
+.wcard h3{font-size:25px;margin-bottom:16px}
+.wcard ul{list-style:none}
+.wcard li{padding:11px 0;border-top:1px solid var(--hair);font-size:14.5px;font-weight:600}
+
+
+/* TEST */
+.test{background:var(--green);color:var(--cream)}
+.test h2{color:var(--cream)}
+.test .eyebrow{color:#9BA08C}
+.qs{margin-top:38px;display:grid;gap:12px;max-width:820px}
+.q{display:flex;align-items:center;justify-content:space-between;gap:20px;border:1px solid #4A4F3E;padding:22px 26px;border-radius:8px;font-weight:700;font-size:17px;cursor:pointer;transition:border-color .2s,background .2s}
+.q:hover{border-color:var(--lime)}
+.q.on{background:#323726;border-color:var(--lime)}
+.q .sw{flex:none;width:56px;height:30px;border-radius:999px;background:#4A4F3E;position:relative;transition:background .2s}
+.q .sw::after{content:"";position:absolute;left:4px;top:4px;width:22px;height:22px;border-radius:50%;background:var(--cream);transition:transform .2s}
+.q.on .sw{background:var(--lime)}
+.q.on .sw::after{transform:translateX(26px);background:var(--green)}
+.verdict{margin-top:30px;padding:32px;border:2px dashed #4A4F3E;border-radius:8px;max-width:820px}
+.verdict .vhead{font-family:Anton,Impact,sans-serif;text-transform:uppercase;font-size:clamp(24px,3vw,36px);color:var(--lime);margin-bottom:12px}
+.verdict p{font-size:17px;font-weight:600}
+
+/* STRUCTURE */
+.struct{display:grid;grid-template-columns:repeat(2,1fr);gap:22px;margin-top:40px}
+.scard{border:1px solid var(--green);background:var(--white);padding:40px;position:relative}
+.scard .idx{position:absolute;top:18px;right:22px;font-family:Anton,Impact,sans-serif;font-size:22px;color:var(--hair)}
+.scard h3{font-size:24px;margin-bottom:14px}
+.scard p{font-size:15.5px}
+
+.wallquote{margin-top:90px;text-align:center;font-family:Anton,Impact,sans-serif;text-transform:uppercase;font-size:clamp(28px,4.4vw,52px);line-height:1.22}
+.wallquote em{font-style:normal;background:var(--lime);padding:0 12px}
+
+/* FAQ */
+.faq{max-width:900px;margin-top:70px}
+.fitem{border-top:1px solid var(--green)}
+.fitem:last-child{border-bottom:1px solid var(--green)}
+.fq{width:100%;text-align:left;background:none;border:none;font-family:Anton,Impact,sans-serif;text-transform:uppercase;font-size:clamp(19px,2.4vw,28px);color:var(--green);padding:28px 60px 28px 0;cursor:pointer;position:relative;line-height:1.1}
+.fq::after{content:"+";position:absolute;right:6px;top:50%;transform:translateY(-50%);font-size:34px;transition:transform .25s;font-family:"Mona Sans",sans-serif;font-weight:400}
+.fitem.open .fq::after{transform:translateY(-50%) rotate(45deg);color:var(--orange)}
+.fq:hover{color:var(--orange)}
+.fa{max-height:0;overflow:hidden;transition:max-height .35s ease}
+.fa p{padding:0 0 30px;font-size:16.5px;max-width:780px;font-weight:500}
+
+/* PROOF */
+.proofrow{display:grid;grid-template-columns:repeat(3,1fr);gap:0;margin-top:40px;border:1px solid var(--green)}
+.pcell{padding:40px 28px;border-right:1px solid var(--green);border-bottom:1px solid var(--green)}
+.pcell:nth-child(3n){border-right:none}
+.pcell:nth-child(n+4){border-bottom:none}
+.pcell .n{font-family:Anton,Impact,sans-serif;font-size:clamp(40px,4.2vw,60px);line-height:1}
+.pcell p{font-size:14px;font-weight:600;margin-top:10px}
+
+
+/* APPLY */
+.apply{background:var(--green);color:var(--cream)}
+.apply h2{color:var(--cream);font-size:clamp(48px,8vw,110px);line-height:1.1}
+.apply .eyebrow{color:#9BA08C}
+.applygrid{display:grid;grid-template-columns:1.1fr 1fr;gap:70px;margin-top:60px;align-items:start}
+
+.bigq{font-family:Anton,Impact,sans-serif;text-transform:uppercase;font-size:clamp(30px,4vw,54px);line-height:1.03}
+.bigq em{color:var(--lime);font-style:normal}
+.applyleft p{margin-top:28px;font-size:17px;font-weight:600;max-width:520px;color:#C9CDBB}
+form{display:grid;gap:16px}
+label{font-size:12px;font-weight:900;letter-spacing:2px;text-transform:uppercase;color:#9BA08C;margin-bottom:-9px}
+input,select,textarea{width:100%;background:transparent;border:1px solid #4A4F3E;border-radius:6px;color:var(--cream);padding:16px;font-family:inherit;font-size:15px}
+select option{color:var(--green)}
+.tset{display:flex;flex-wrap:wrap;gap:10px}
+.topt{position:relative}
+.topt input{position:absolute;opacity:0;pointer-events:none}
+.topt span{display:inline-block;padding:12px 20px;border:1px solid #4A4F3E;border-radius:999px;font-size:14px;font-weight:700;color:var(--cream);cursor:pointer;transition:background .2s,color .2s,border-color .2s,transform .15s}
+.topt span:hover{border-color:var(--lime);transform:translateY(-2px)}
+.topt input:checked+span{background:var(--lime);color:var(--green);border-color:var(--lime)}
+.topt input:focus-visible+span{outline:3px solid var(--orange);outline-offset:2px}
+input::placeholder,textarea::placeholder{color:#8A8F7C}
+button.submit{background:var(--lime);color:var(--green);border:none;border-radius:999px;padding:19px 44px;font-weight:900;font-size:14px;letter-spacing:1.5px;text-transform:uppercase;cursor:pointer;font-family:inherit;justify-self:start;transition:transform .18s,background .18s}
+button.submit:hover{background:var(--cream)}
+.applynote{margin-top:24px;font-size:13.5px;color:#9BA08C;max-width:520px}
+
+/* FOOTER */
+footer{background:var(--green);color:#9BA08C;padding:80px 0 40px;border-top:1px solid #3A3F30;overflow:hidden}
+.footmega{font-family:Anton,Impact,sans-serif;text-transform:uppercase;color:var(--cream);font-size:clamp(44px,10vw,168px);line-height:.92}
+.footmega em{color:var(--lime);font-style:normal}
+.footrow{display:flex;justify-content:space-between;gap:30px;flex-wrap:wrap;align-items:center;margin-top:50px;border-top:1px solid #3A3F30;padding-top:30px}
+footer small{font-size:12.5px}
+
+/* reveal + motion prefs */
+.js .reveal{opacity:0;transform:translateY(30px);transition:opacity .7s ease,transform .7s ease}
+.js .reveal.on{opacity:1;transform:none}
+@media (prefers-reduced-motion:reduce){
+  .reveal,.hero h1 .line span{opacity:1;transform:none;transition:none;animation:none}
+  .scrollhint i{animation:none}
+  html{scroll-behavior:auto}
+  .loader{display:none}
+}
+
+/* ===== THE GUIDE / HVCO ===== */
+.guide{background:var(--green);color:var(--cream)}
+.guide .eyebrow{color:#9DA08F}
+.guide h2{color:var(--cream)}
+.guide .hl{background:var(--lime);color:var(--green)}
+.gwrap{display:grid;grid-template-columns:1.15fr .85fr;gap:64px;align-items:center;margin-top:48px}
+.glead{font-size:21px;font-weight:700;line-height:1.45;margin-bottom:20px}
+.gsub{font-size:16px;color:#C9CCBD;margin-bottom:26px;max-width:560px}
+.gsub strong{color:var(--cream)}
+.gbul{list-style:none;margin-bottom:32px}
+.gbul li{position:relative;padding-left:32px;margin-bottom:14px;font-size:15.5px;line-height:1.5;color:#DCDED2}
+.gbul li::before{content:"";position:absolute;left:0;top:9px;width:16px;height:3px;background:var(--lime)}
+.gbul strong{color:var(--lime)}
+.gform{display:flex;flex-direction:column;gap:12px;max-width:520px}
+.gform input{background:rgba(239,239,229,.07);border:1px solid rgba(239,239,229,.28);color:var(--cream);padding:16px 18px;font:inherit;font-size:16px;border-radius:4px}
+.gform input::placeholder{color:#8E9183}
+.gform button{background:var(--lime);color:var(--green);border:none;font:inherit;font-weight:900;font-size:15px;letter-spacing:1.5px;text-transform:uppercase;padding:19px 28px;border-radius:999px;cursor:pointer;transition:transform .18s ease}
+.gform button:hover{transform:translateY(-2px)}
+.gnote{font-size:13px;color:#8E9183;line-height:1.5;margin-top:4px}
+.gcall{margin-top:20px;padding-top:18px;border-top:1px solid rgba(239,239,229,.18);font-size:14px;color:#B9BCAE;line-height:1.6}
+.gcall a{color:var(--lime);font-weight:800;text-decoration:underline}
+
+
+
+.submitrow{display:flex;align-items:center;gap:16px;flex-wrap:wrap;margin-top:8px}
+.wabtn{display:inline-flex;align-items:center;gap:10px;background:transparent;color:#25D366;border:2px solid #25D366;font-weight:900;font-size:13px;letter-spacing:1.4px;text-transform:uppercase;padding:17px 26px;border-radius:999px;transition:background .2s ease,color .2s ease}
+.wabtn:hover{background:#25D366;color:#06301A}
+.wabtn .waicon{width:19px;height:19px;fill:currentColor;flex:none}
+.applynote a{text-decoration:underline}
+.gstage{perspective:1600px;perspective-origin:50% 40%}
+.gbook{position:relative;transform-style:preserve-3d;transform:rotateY(-14deg) rotateX(4deg);transition:transform .5s cubic-bezier(.2,.7,.3,1);will-change:transform;cursor:pointer}
+.gbook img{width:100%;height:auto;aspect-ratio:640/905;object-fit:cover;border-radius:2px 4px 4px 2px;display:block;box-shadow:0 50px 90px -20px rgba(0,0,0,.75),0 8px 24px rgba(0,0,0,.4);position:relative;z-index:2}
+.gspine{position:absolute;left:0;top:0;bottom:0;width:13px;z-index:3;border-radius:2px 0 0 2px;
+  background:linear-gradient(90deg,rgba(0,0,0,.55) 0%,rgba(0,0,0,.18) 42%,rgba(255,255,255,.10) 62%,rgba(0,0,0,.30) 100%)}
+.gedge{position:absolute;right:-9px;top:6px;bottom:6px;width:9px;z-index:1;border-radius:0 3px 3px 0;transform:translateZ(-2px);
+  background:repeating-linear-gradient(180deg,#EFEFE5 0 2px,#CFCFC2 2px 3px);box-shadow:2px 0 10px rgba(0,0,0,.5)}
+.gglare{position:absolute;inset:0;z-index:4;border-radius:2px 4px 4px 2px;pointer-events:none;opacity:.5;transition:opacity .4s ease;
+  background:linear-gradient(115deg,rgba(255,255,255,.22) 0%,rgba(255,255,255,0) 38%,rgba(255,255,255,0) 72%,rgba(255,255,255,.09) 100%)}
+.gbook:hover .gglare{opacity:.85}
+.gtags{display:flex;gap:10px;flex-wrap:wrap;margin-top:26px;justify-content:center}
+.gtag{font-size:11.5px;font-weight:900;letter-spacing:1.6px;text-transform:uppercase;border:1px solid rgba(239,239,229,.3);color:#C9CCBD;padding:8px 15px;border-radius:999px}
+.gdone{font-size:19px;font-weight:800;color:var(--lime);line-height:1.5}
+.todo{display:block;background:var(--orange);color:#fff;font-weight:900;font-size:13px;letter-spacing:.6px;padding:10px 14px;border-radius:4px;margin:10px 0;text-transform:none}
+/* value anchor */
+.anchor{border:1px solid var(--green);display:grid;grid-template-columns:1fr 1fr 1fr;margin-bottom:0}
+.structlead{font-size:19px;font-weight:600;line-height:1.55;max-width:820px;margin-bottom:34px}
+.anchornote{font-size:13px;color:var(--grey);line-height:1.55;max-width:840px;margin-bottom:44px}
+.unitwarn{border-left:4px solid var(--orange);background:rgba(255,107,0,.07);padding:18px 22px;max-width:900px;margin-bottom:24px;font-size:15px;line-height:1.55}
+.unitwarn strong{font-weight:900}
+.unitwarn em{font-style:normal;background:var(--lime);padding:0 6px;font-weight:800}
+.au{font-size:11px;font-weight:900;letter-spacing:1.6px;text-transform:uppercase;color:var(--grey);margin-top:6px}
+.sum{border:1px solid var(--green);border-top:none;padding:26px 28px 22px;margin-bottom:44px;background:rgba(40,44,32,.03)}
+.sumhead{font-size:11px;font-weight:900;letter-spacing:1.8px;text-transform:uppercase;color:var(--grey);margin-bottom:16px}
+.sumrow{display:flex;justify-content:space-between;align-items:baseline;gap:24px;padding:10px 0;border-bottom:1px solid var(--hair);font-size:15px}
+.sumrow b{font-family:Anton,Impact,sans-serif;font-size:22px;font-weight:400;white-space:nowrap}
+.sumrow.minus b{color:var(--orange)}
+.sumrow.total{border-bottom:none;border-top:2px solid var(--green);margin-top:4px;padding-top:14px;font-weight:800}
+.sumrow.total b{font-size:30px;background:var(--lime);padding:0 8px}
+.sumfoot{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:20px;padding-top:18px;border-top:1px dashed var(--hair)}
+.sumfoot span{display:block;font-size:11px;font-weight:900;letter-spacing:1.5px;text-transform:uppercase;color:var(--grey);margin-bottom:5px}
+.sumfoot b{font-family:Anton,Impact,sans-serif;font-weight:400;font-size:21px}
+.sumfoot .right{text-align:right}
+.sumfoot .right b{color:var(--green);background:var(--lime);padding:0 7px}
+.sumnote{font-size:13px;color:var(--grey);margin-top:16px;line-height:1.5}
+.sumnote a{text-decoration:underline}
+.anchordef{grid-column:1/-1;border-top:1px solid var(--green);background:rgba(40,44,32,.045);padding:20px 26px;display:grid;grid-template-columns:1fr 1fr;gap:10px 34px;font-size:14px;line-height:1.5}
+.anchordef b{font-weight:900}
+.anchordef .warn{grid-column:1/-1;border-top:1px dashed var(--hair);padding-top:12px;font-weight:800;color:var(--green)}
+.anchordef .warn::before{content:"";display:inline-block;width:9px;height:9px;border-radius:50%;background:var(--orange);margin-right:9px;vertical-align:middle}
+.anchornote a{text-decoration:underline}
+.acell{padding:30px 26px;border-right:1px solid var(--green)}
+.acell:last-child{border-right:none}
+.acell .an{font-family:Anton,Impact,sans-serif;font-size:clamp(34px,4vw,54px);line-height:1}
+.acell .ac{font-weight:700;font-size:14px;margin-top:10px;line-height:1.45}
+.footlegal{display:flex;flex-wrap:wrap;gap:10px 34px;margin-top:26px;padding-top:22px;border-top:1px solid rgba(239,239,229,.16);font-size:13px;color:#9DA08F}
+.footlegal a{text-decoration:underline}
+
+
+/* ===== VALUATION CALCULATOR ===== */
+.calc{background:var(--cream)}
+.calcgrid{display:grid;grid-template-columns:1fr 1fr;gap:56px;margin-top:44px;align-items:start}
+.calcstep{margin-bottom:34px}
+.stepnum{display:flex;align-items:center;gap:12px;font-size:11px;font-weight:900;letter-spacing:2px;text-transform:uppercase;color:var(--grey);margin-bottom:14px}
+.stepnum b{font-family:Anton,Impact,sans-serif;font-size:15px;font-weight:400;background:var(--green);color:var(--cream);width:26px;height:26px;border-radius:50%;display:flex;align-items:center;justify-content:center}
+.sectors{display:flex;flex-wrap:wrap;gap:8px}
+.sec{border:1.5px solid var(--green);border-radius:999px;padding:10px 16px;font-size:13px;font-weight:700;cursor:pointer;transition:background .15s,color .15s;user-select:none}
+.sec:hover{background:rgba(40,44,32,.07)}
+.sec.on{background:var(--green);color:var(--cream)}
+.ebitwrap{display:flex;align-items:center;gap:0;border:1.5px solid var(--green);max-width:340px}
+.ebitwrap span{padding:0 16px;font-family:Anton,Impact,sans-serif;font-size:26px;border-right:1.5px solid var(--green);background:rgba(40,44,32,.05)}
+.ebitwrap input{border:none;background:transparent;font-family:Anton,Impact,sans-serif;font-size:26px;padding:14px 16px;width:100%;color:var(--green)}
+.ebitwrap input:focus{outline:none}
+.ebithint{font-size:13px;color:var(--grey);margin-top:10px;line-height:1.5}
+.ebithint a{text-decoration:underline;font-weight:700}
+.cgroup{margin-bottom:22px}
+.cgroup h4{font-size:11px;font-weight:900;letter-spacing:2px;text-transform:uppercase;color:var(--orange);margin-bottom:10px}
+.cgroup h4 em{font-style:normal;color:var(--grey);letter-spacing:.5px;text-transform:none;font-weight:600;font-size:11.5px}
+.chk{display:flex;gap:11px;align-items:flex-start;padding:7px 0;cursor:pointer;font-size:14.5px;line-height:1.45;user-select:none}
+.chk .box{width:19px;height:19px;border:2px solid var(--green);flex:none;margin-top:1px;position:relative;transition:background .15s}
+.chk.on .box{background:var(--green)}
+.chk.on .box::after{content:"";position:absolute;left:5px;top:1px;width:5px;height:10px;border:solid var(--lime);border-width:0 2.5px 2.5px 0;transform:rotate(45deg)}
+.calcout{background:var(--green);color:var(--cream);padding:34px 32px;position:sticky;top:104px}
+.coscore{display:flex;align-items:baseline;gap:10px;font-size:11px;font-weight:900;letter-spacing:2px;text-transform:uppercase;color:#9DA08F;margin-bottom:6px}
+.cobig{font-family:Anton,Impact,sans-serif;font-size:clamp(30px,3.4vw,44px);line-height:1.05;color:var(--lime)}
+.cosize{font-size:12.5px;font-weight:700;color:#9DA08F;margin-top:14px;padding-top:12px;border-top:1px dashed #4A4E3F;line-height:1.45}
+.comult{font-size:13px;font-weight:800;letter-spacing:1.4px;text-transform:uppercase;color:#B9BCAE;margin-top:8px}
+.corow{border-top:1px solid #4A4E3F;margin-top:22px;padding-top:20px}
+.corow .lab{font-size:11px;font-weight:900;letter-spacing:2px;text-transform:uppercase;color:#9DA08F;margin-bottom:6px}
+.copot{font-family:Anton,Impact,sans-serif;font-size:clamp(24px,2.6vw,34px);line-height:1.05}
+.cogap{background:var(--lime);color:var(--green);padding:14px 18px;margin-top:20px;font-weight:800;font-size:15px;line-height:1.4}
+.cogap b{font-family:Anton,Impact,sans-serif;font-weight:400;font-size:26px;display:block;margin-top:2px}
+.conext{margin-top:20px}
+.conext li{font-size:13.5px;line-height:1.45;padding-left:20px;position:relative;margin-bottom:8px;color:#DCDED2;list-style:none}
+.conext li::before{content:"";position:absolute;left:0;top:7px;width:10px;height:2px;background:var(--orange)}
+.cocav{font-size:11.5px;color:#8E9183;line-height:1.5;margin-top:20px;padding-top:16px;border-top:1px solid #4A4E3F}
+.cocta{display:inline-flex;align-items:center;gap:10px;background:var(--lime);color:var(--green);font-weight:900;font-size:13px;letter-spacing:1.3px;text-transform:uppercase;padding:15px 24px;border-radius:999px;margin-top:20px}
+.coempty{color:#9DA08F;font-size:15px;line-height:1.6}
+
+.burger{display:none}
+.mobnav{display:none}
+/* ===== BREAKPOINTS: three only. 1260 desktop furniture, 960 layout collapse, 760 phone. ===== */
+@media(max-width:1260px){
+  .rail{display:none}
+  .megadoor{display:none}
+}
+/* the hero door returns on phones, sitting behind the type as a watermark */
+@media(max-width:760px){
+  .megadoor{display:block;right:-12vw;top:auto;bottom:-2vh;width:min(216px,58vw);height:auto;aspect-ratio:360/565;
+    opacity:.45;z-index:0}
+  .megadoor .mframe{border-width:7px}
+  .megadoor .mpanel{transform:rotateY(-38deg)}
+  .hero>.wrap{position:relative;z-index:2}
+}
+@media(max-width:1180px){
+  .navlinks{display:none}
+  /* everything below exists only on smaller screens; desktop never sees it */
+  .burger{display:flex;flex-direction:column;justify-content:center;gap:5px;width:42px;height:42px;
+    border:1.5px solid var(--green);background:transparent;border-radius:8px;cursor:pointer;padding:0 10px;flex:none;margin-left:auto}
+  .burger span{display:block;height:2px;width:100%;background:var(--green);transition:transform .25s ease,opacity .2s ease}
+  .burger[aria-expanded="true"] span:first-child{transform:translateY(3.5px) rotate(45deg)}
+  .burger[aria-expanded="true"] span:last-child{transform:translateY(-3.5px) rotate(-45deg)}
+  .navin{gap:12px}
+  .mobnav{display:block;position:fixed;inset:0;z-index:200;background:var(--green);color:var(--cream);
+    overflow-y:auto;opacity:0;pointer-events:none;transition:opacity .25s ease}
+  .mobnav[hidden]{display:block}
+  .mobnav.open{opacity:1;pointer-events:auto}
+  .mobin{padding:96px 26px 40px;display:flex;flex-direction:column}
+  .mobhead{font-size:11px;font-weight:900;letter-spacing:2.4px;text-transform:uppercase;color:#8E9183;margin-bottom:20px}
+  .mobin>a{font-family:Anton,Impact,sans-serif;text-transform:uppercase;font-size:clamp(26px,7.4vw,38px);
+    line-height:1.1;padding:15px 0;border-bottom:1px solid rgba(239,239,229,.16);color:var(--cream)}
+  .mobin>a.navtool::before{width:9px;height:9px;margin-right:12px;vertical-align:middle}
+  .mobapply{color:var(--lime)!important;border-bottom:none!important;margin-top:8px}
+  .mobcontact{display:flex;flex-wrap:wrap;gap:10px 22px;margin-top:26px;padding-top:20px;border-top:1px solid rgba(239,239,229,.16)}
+  .mobcontact a{font-size:14px;font-weight:700;color:#C9CCBD;text-decoration:underline}
+  body.navopen{overflow:hidden}
+}
+@media(max-width:960px){
+  .builds,.cols,.work3,.struct,.applygrid,.gwrap,.calcgrid{grid-template-columns:1fr}
+  .calcout{position:static}
+  .calcgrid{gap:34px}
+  .gwrap{gap:44px}
+  .gstage{max-width:250px;margin:0 auto 4px}
+  .gbook{transform:rotateY(-6deg)}
+  .gbook .gedge{right:-6px;width:6px}
+  .gbook .gspine{width:9px}
+  .anchor{grid-template-columns:1fr}
+  .anchordef{grid-template-columns:1fr;padding:18px 20px}
+  .sum{padding:20px 18px 18px}
+  .sumrow{flex-direction:column;gap:2px;align-items:flex-start}
+  .sumrow b{font-size:24px}
+  .sumrow.total b{font-size:28px}
+  .sumfoot{grid-template-columns:1fr}
+  .sumfoot .right{text-align:left}
+  .acell{border-right:none;border-bottom:1px solid var(--green)}
+  .acell:last-child{border-bottom:none}
+  .stats{grid-template-columns:1fr}
+  .stat{border-right:none;border-bottom:1px solid var(--green)}
+  .stat:last-child{border-bottom:none}
+  .proofrow{grid-template-columns:1fr 1fr}
+  .pcell{border-right:1px solid var(--green);border-bottom:1px solid var(--green)}
+  .pcell:nth-child(2n){border-right:none}
+  .pcell:nth-child(n+5){border-bottom:none}
+}
+@media(max-width:760px){
+  .navin{gap:14px;padding:12px 18px}
+  .herobottom{gap:12px}
+  .chip,.altcta{padding:14px 22px;font-size:12.5px}
+  .lock{flex:1 1 auto;min-width:0;font-size:14px;letter-spacing:1.4px}
+  .navcta{padding:10px 18px;font-size:12px}
+  .proofrow{grid-template-columns:1fr}
+  .pcell,.pcell:nth-child(2n),.pcell:nth-child(3n){border-right:none;border-bottom:1px solid var(--green)}
+  .pcell:last-child{border-bottom:none}
+  /* the burying effect needs each card shorter than the screen, or sticky cannot hold */
+  .dcard{grid-template-columns:1fr;padding:22px 20px;min-height:0;gap:12px}
+  .dcard:nth-child(1){top:72px}
+  .dcard:nth-child(2){top:92px}
+  .dcard:nth-child(3){top:112px}
+  .dcard:nth-child(4){top:132px}
+  .dcard h3{font-size:23px;margin-bottom:6px}
+  .dcard p{font-size:14px;line-height:1.42;margin-bottom:8px}
+  .ddoor{display:flex;align-items:center;gap:12px;width:auto}
+  .ddnum{font-size:26px;margin:0}
+  .ddframe{width:40px;height:60px;border-width:4px}
+  .dcard .chip{padding:13px 20px;font-size:12px;margin-top:4px}
+  .dcard .dtag{font-size:9.5px;padding:4px 9px}
+}
+/* short handsets: the fourth card carries more copy, so it needs a little more taken off */
+@media(max-width:760px) and (max-height:700px){
+  .dcard{padding:18px 18px}
+  .dcard h3{font-size:21px}
+  .dcard p{font-size:13.2px;line-height:1.38;margin-bottom:6px}
+  .ddnum{font-size:22px}
+  .ddframe{width:34px;height:50px;border-width:3px}
+}
+@media(max-height:720px){
+  .scrollhint{display:none}
+  .hero{padding-top:clamp(24px,4vh,60px)}
+}
+@media(max-width:520px) and (max-height:700px){
+  .payoff{display:none}
+}
+</style>
+</head>
+<body>
+
+<div class="loader" aria-hidden="true">
+  <div class="panel l"><span>The Fourth</span></div>
+  <div class="panel r"><span>Door</span></div>
+</div>
+
+<div class="rail" aria-hidden="true">
+  <a href="#top" data-r="top" aria-label="Go to Top"></a><a href="#wall" data-r="wall" aria-label="Go to The Wall"></a><a href="#doors" data-r="doors" aria-label="Go to The Doors"></a>
+  <a href="#builds" data-r="builds" aria-label="Go to Two Builds"></a><a href="#work" data-r="work" aria-label="Go to The Work"></a><a href="#select" data-r="select" aria-label="Go to Selection"></a><a href="#test" data-r="test" aria-label="Go to The Month Test"></a>
+  <a href="#structure" data-r="structure" aria-label="Go to Structure"></a><a href="#apply" data-r="apply" aria-label="Go to Apply"></a>
+</div>
+
+<nav>
+  <div class="navin">
+    <a class="lock" href="#top"><svg class="mark" viewBox="0 0 64 64" aria-hidden="true"><rect class="m-fr" x="15" y="6" width="34" height="52" fill="none" stroke-width="7"/><polygon class="m-door" points="18.5,13 38.5,16.6 38.5,58.5 18.5,52"/><circle class="m-h" cx="34.2" cy="35" r="2.7"/></svg>THE FOURTH DOOR</a>
+    <div class="navlinks">
+      <a href="#doors">The Doors</a><a href="#work">The Work</a>
+      <a class="navtool" href="#test">The Month Test</a><a class="navtool" href="#worth">What It's Worth</a><a class="navtool gated" href="#guide">The 20 Checks</a><a href="#structure">Structure</a>
+    </div>
+    <button class="burger" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="mobnav"><span></span><span></span></button>
+      <a class="navcta" href="#apply">Apply</a>
+  </div>
+  <div class="pbar" aria-hidden="true"><i></i></div>
+  <div class="mobnav" id="mobnav" hidden>
+    <div class="mobin">
+      <p class="mobhead">Where to</p>
+      <a href="#doors">The Doors</a>
+      <a href="#work">The Work</a>
+      <a class="navtool" href="#test">The Month Test</a>
+      <a class="navtool" href="#worth">What It's Worth</a>
+      <a class="navtool gated" href="#guide">The 20 Checks</a>
+      <a href="#structure">Structure</a>
+      <a class="mobapply" href="#apply">Apply To Work With Us</a>
+      <div class="mobcontact">
+        <a href="tel:+442079460100">020 7946 0100</a>
+        <a href="https://wa.me/442079460100">WhatsApp</a>
+        <a href="mailto:info@thefourthdoor.co.uk">Email us</a>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<header class="hero" id="top">
+  <div class="megadoor" aria-hidden="true">
+    <div class="mframe"></div>
+    <div class="mpanel"><span class="mhandle"></span></div>
+  </div>
+  <div class="wrap">
+    <h1>
+      <span class="line"><span>Your Business</span></span>
+      <span class="line"><span>Has A Ceiling.</span></span>
+      <span class="line"><span><span class="you">It's You.*</span></span></span>
+    </h1>
+    <p class="payoff">*We mean that kindly. It's also the most fixable problem in your business.</p>
+    <p class="sub">Building a business is hard. Getting it bought for silly money is harder. We build it with you. Then buyers turn up.</p>
+    <div class="herobottom">
+      <a class="chip" href="#apply">Apply To Work With Us <span class="arr">→</span></a>
+      <a class="altcta" href="#guide">First, see the 20 checks a buyer will run on you <span class="arr">→</span></a>
+      <span class="scrollhint"><i></i>Scroll. It gets uncomfortable.</span>
+    </div>
+  </div>
+</header>
+
+<div class="stband g" aria-label="The business outgrows you. You outgrow the day-to-day. No more ceilings.">
+  <p class="stline"><span>The</span> <span>business</span> <span>outgrows</span> <span>you.</span> <span>You</span> <span>outgrow</span> <span>the</span> <span>day-to-day.</span> <span class="key">No</span> <span class="key">more</span> <span class="key">ceilings.</span></p>
+</div>
+
+<section id="wall" class="slide">
+  <div class="wrap">
+    <p class="eyebrow reveal">The Wall</p>
+    <h2 class="bigclaim reveal">There's a wall between good businesses and serious money.<br><span class="hl">Most founders hit it before they see it.</span></h2>
+    <div class="stats">
+      <div class="stat reveal"><div class="n" data-count="10" data-pre="£" data-post="M+">£10M+</div><p>Roughly the turnover where institutional buyers start returning your calls.</p></div>
+      <div class="stat reveal"><div class="n" data-count="2" data-pre="£" data-post="M+">£2M+</div><p>The EBITDA mark where serious money starts calling you investable.</p></div>
+      <div class="stat reveal"><div class="n">No.1</div><p>The deal-killer in due diligence: a business that cannot run without its founder. The trade calls it key-person dependency.</p></div>
+    </div>
+    <div class="pull reveal">
+      You are the best salesperson in the building. Every hire crosses your desk. The biggest customers ring you direct. To you, that feels like commitment. To a buyer, it means <em>the business leaves when you do.</em>
+    </div>
+  </div>
+</section>
+
+<section id="doors" style="padding-top:60px">
+  <div class="wrap">
+    <p class="eyebrow reveal">The Doors</p>
+    <h2 class="bigclaim reveal">You have three ways forward.<br><span class="hl">All of them are poor.</span></h2>
+    <div class="stack">
+      <div class="dcard">
+        <div class="dmini">01 / Hire Consultants</div>
+        <div class="ddoor" aria-hidden="true"><span class="ddnum">01</span><div class="ddframe"><div class="ddpanel"></div></div></div>
+        <div>
+          <h3>Hire Consultants</h3>
+          <p>Pay fees, receive a strategy document, implement it yourself in the evenings with the team you already do not have. The advice may even be right. But advice does not build businesses. Builders build businesses. Consultants get paid either way.</p>
+          <span class="dtag">Poor</span>
+        </div>
+      </div>
+      <div class="dcard">
+        <div class="dmini">02 / Sell Early</div>
+        <div class="ddoor" aria-hidden="true"><span class="ddnum">02</span><div class="ddframe"><div class="ddpanel"></div></div></div>
+        <div>
+          <h3>Sell Early</h3>
+          <p>Take the offer that comes from below the line. Smaller buyers, lower multiples, half the price deferred and conditional. You give up control of the thing you built, at a fraction of what it could be worth. The first offer is rarely the best one. It is just the earliest.</p>
+          <span class="dtag">Poor</span>
+        </div>
+      </div>
+      <div class="dcard">
+        <div class="dmini">03 / Grind On Alone</div>
+        <div class="ddoor" aria-hidden="true"><span class="ddnum">03</span><div class="ddframe"><div class="ddpanel"></div></div></div>
+        <div>
+          <h3>Grind On Alone</h3>
+          <p>Keep doing what you are doing, harder. Give it five or ten more years and hope the wall moves. It will not. Effort got you this far. It will not get you through.</p>
+          <span class="dtag">Poor</span>
+        </div>
+      </div>
+      <div class="dcard">
+        <span class="dopen">Open</span>
+        <div class="ddoor" aria-hidden="true"><span class="ddnum">04</span><div class="ddframe"><div class="ddpanel"></div></div></div>
+        <div>
+          <h3>The Fourth Door</h3>
+          <p>The scale partnership that makes founder-led businesses institution-ready. We build with you for years, until the business runs without you and the numbers survive a buyer's accountant.</p>
+          <p>In plainer words: a business worth a multiple of what it is worth today, saleable at a time of your choosing, that keeps running when you are not in it.</p>
+          <p style="margin-top:16px;font-family:Anton,Impact,sans-serif;text-transform:uppercase;font-size:22px;line-height:1.15">PE firms buy businesses. We build them, and the founders who run them, <span style="color:var(--lime)">until PE comes asking.</span></p>
+          <div style="margin-top:26px"><a class="chip" href="#apply">Apply To Work With Us <span class="arr">→</span></a></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="stband a" aria-label="No rescue. No passengers. No cheap exits.">
+  <p class="stline"><span>No</span> <span>rescue.</span> <span>No</span> <span>passengers.</span> <span class="key">No</span> <span class="key">cheap</span> <span class="key">exits.</span></p>
+</div>
+
+<section id="builds">
+  <div class="wrap">
+    <p class="eyebrow reveal">Two Builders, One Build</p>
+    <h2 class="bigclaim reveal">The business and the founder hit the same ceiling.<br><span class="hl">Because they are the same ceiling.</span></h2>
+    <div class="builds">
+      <div class="build reveal">
+        <div class="bphoto"><img src="assets/lee-liasi.jpg" alt="Lee Liasi" style="object-position:50% 12%"></div>
+        <div class="bbody">
+          <h3>Lee Liasi</h3>
+          <div class="brole">Leads the commercial build</div>
+          <p>Strategy, systems, the way revenue is won and delivered, the management layer, and numbers a buyer cannot pick apart. A business that runs whether you are in the building or not.</p>
+          <ul>
+            <li>Built and ran 150+ businesses inside one group, culminating at £250m turnover and £500m+ in value</li>
+            <li>Ran 15 brands at once, and delivered 80+ rebrands across the group</li>
+            <li>Led 3,000+ people, and appointed and developed the managers and directors who ran them</li>
+            <li>Integrated 65+ acquisitions, buying them, merging them and making them one business</li>
+            <li>Has sat on both sides of the deal table, as the builder and as the buyer</li>
+            <li>Coaches leadership teams as well as founders, because the layer below you decides whether you can leave</li>
+          </ul>
+        </div>
+      </div>
+      <div class="build reveal">
+        <div class="bphoto"><img src="assets/pete-taylor.jpg" alt="Pete Taylor speaking on a panel" style="object-position:38% 12%"></div>
+        <div class="bbody">
+          <h3>Pete Taylor</h3>
+          <div class="brole">Leads the CEO build</div>
+          <p>Leadership, identity, capacity. The harder build, and the one that makes every other build hold. Letting go of the day-to-day is not a diary exercise. It is who you are, changing.</p>
+          <ul>
+            <li>CEO advisor to founders and directors running £1m to £30m businesses</li>
+            <li>100+ CEOs coached across 15 years, in the UK and Dubai</li>
+            <li>Takes founders from six to eight figures, with measurable step-changes in performance</li>
+            <li>Built and ran his own bricks-and-mortar business as CEO, so he has sat in the founder's seat</li>
+            <li>Founder of Heroic Man, host of its podcast, and the CEO days behind both</li>
+            <li>Strategy, planning and execution, as well as leadership and capacity</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <p class="buildlead reveal">Forty years between us. We have built businesses, bought them and merged them into one. We have hired the leaders, built the teams, and coached the founders running them. Strategy, systems, sales, acquisitions, rebrands, leadership, culture and performance. You get all of it, from both of us, for as long as it takes.</p>
+    <p class="thesis reveal">We build the business and the founder at the same time,<br><span class="hl">because neither one gets there without the other.</span></p>
+  </div>
+</section>
+
+<section id="work">
+  <div class="wrap">
+    <p class="eyebrow reveal">The Work</p>
+    <h2 class="bigclaim reveal">What we actually do,<br><span class="hl">inside your business.</span></h2>
+    <p class="reveal" style="max-width:780px;margin-top:26px;font-size:18px;font-weight:600">There is no template. The work is shaped around where your business actually is and where it needs to get to, and it falls into three builds.</p>
+    <div class="work3">
+      <div class="wcard reveal">
+        <h3>Build The Business</h3>
+        <ul>
+          <li>Growth and strategy: the plan to scale, then the delivery of it</li>
+          <li>Revenue, retention and data: dashboards and KPIs so decisions run on facts, not gut feel</li>
+          <li>Acquisition integration: bolt-ons turned into one joined-up business, learned across 65+ deals</li>
+          <li>AI and automation put where it removes real work: quoting, reporting, scheduling, chasing customers</li>
+          <li>Key-person risk out, optionality in: sellable when you want it, self-running when you don't</li>
+        </ul>
+      </div>
+      <div class="wcard reveal">
+        <h3>Build The Team</h3>
+        <ul>
+          <li>High-performance teams that multiply growth rather than just add to it</li>
+          <li>Culture and leadership: how people behave when you are not watching</li>
+          <li>Coaching that turns good managers into leaders who can run their part of the business without you in the room</li>
+          <li>Habits and performance built on the research into how people actually change</li>
+          <li>Systems that outlast any one person, so nothing breaks when someone walks</li>
+        </ul>
+      </div>
+      <div class="wcard reveal">
+        <h3>Build The CEO</h3>
+        <ul>
+          <li>A sounding board that has actually sat in the seat</li>
+          <li>Stepping back from the day-to-day without performance slipping</li>
+          <li>Leadership, identity and capacity: becoming the chief executive a much bigger business needs</li>
+          <li>One-to-one work through the hard chapters: letting go, levelling up, the next act</li>
+          <li>The chief executive a buyer wants to meet: calm in diligence, strong at the table</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="select" class="slide" style="padding-top:70px">
+  <div class="wrap">
+    <p class="eyebrow reveal">Selection</p>
+    <h2 class="bigclaim reveal">We decline most people<br><span class="hl">who apply.</span></h2>
+    <div class="cols">
+      <div class="col reveal">
+        <h3>We partner with</h3>
+        <ul>
+          <li><span class="tick">✓</span>Founder-led businesses where the founder is still the reason it works</li>
+          <li><span class="tick">✓</span>Established companies with real revenue, real customers, real profit</li>
+          <li><span class="tick">✓</span>Businesses that could be much bigger than they are today</li>
+          <li><span class="tick">✓</span>Founders who can say out loud that the business depends on them too much</li>
+          <li><span class="tick">✓</span>Owners building towards the day serious buyers come knocking</li>
+        </ul>
+      </div>
+      <div class="col no reveal">
+        <h3>We decline, without exception</h3>
+        <ul>
+          <li><span class="tick">✕</span>Lifestyle businesses. A good plan. Just not our work.</li>
+          <li><span class="tick">✕</span>Founders looking for a rescue. We build with people, not for them.</li>
+          <li><span class="tick">✕</span>Anyone allergic to sharing equity. Our model is equity for building.</li>
+          <li><span class="tick">✕</span>Turnarounds. We make good businesses institution-ready. We do not make failing businesses good.</li>
+          <li><span class="tick">✕</span>Anyone in a hurry. The build takes years. We say that on day one.</li>
+        </ul>
+      </div>
+    </div>
+    <p class="selectnote reveal">If the first list is you and you read the second without flinching, keep going.</p>
+  </div>
+</section>
+
+<section class="test slide" id="test">
+  <div class="wrap">
+    <p class="eyebrow reveal">The Month Test</p>
+    <h2 class="reveal" style="font-size:clamp(40px,6.5vw,90px);line-height:1.12">If you disappeared for a month,<br>would your business survive?</h2>
+    <div class="qs reveal">
+      <div class="q" data-q><span>The biggest customers would ring my mobile, not the office.</span><span class="sw" aria-hidden="true"></span></div>
+      <div class="q" data-q><span>Nobody else can sign off pricing, hiring, or big decisions.</span><span class="sw" aria-hidden="true"></span></div>
+      <div class="q" data-q><span>I have not taken two clean weeks off in the last two years.</span><span class="sw" aria-hidden="true"></span></div>
+      <div class="q" data-q><span>If I am honest, the plan for the next stage is in my head and nowhere else.</span><span class="sw" aria-hidden="true"></span></div>
+    </div>
+    <div class="verdict reveal" id="verdict" aria-live="polite">
+      <div class="vhead">Tap what's true. We'll be honest back.</div>
+      <p>Four statements. Tick the true ones. Nobody sees your answers but you. It is the question every buyer will eventually ask, asked years too late. Here it comes early.</p>
+      <a class="chip vchip" href="#apply" hidden style="margin-top:28px">Apply To Work With Us <span class="arr">→</span></a>
+    </div>
+  </div>
+</section>
+
+
+<section class="calc" id="worth">
+  <div class="wrap">
+    <p class="eyebrow reveal">The Calculator</p>
+    <h2 class="bigclaim reveal">What is it worth,<br><span class="hl">and what could it be worth?</span></h2>
+    <p class="calclead reveal">Your sector sets the band. Your size moves the band. The twenty checks decide where inside it you land. Two minutes, no email, and the answer is a range because anybody giving you a single number is guessing.</p>
+    <div class="calcgrid">
+      <div class="reveal">
+        <div class="calcstep">
+          <div class="stepnum"><b>1</b> What kind of business is it?</div>
+          <div class="sectors" id="secs">
+          <div class="sec" data-lo="7" data-hi="13">Software &amp; SaaS</div>
+          <div class="sec" data-lo="5.5" data-hi="8">Technology services</div>
+          <div class="sec" data-lo="5" data-hi="9">Healthcare &amp; care</div>
+          <div class="sec" data-lo="4.5" data-hi="7">Manufacturing</div>
+          <div class="sec" data-lo="4.5" data-hi="7">Distribution &amp; wholesale</div>
+          <div class="sec" data-lo="4.5" data-hi="7">Transport &amp; logistics</div>
+          <div class="sec" data-lo="4" data-hi="6.5">Professional services</div>
+          <div class="sec" data-lo="3.5" data-hi="6">Home &amp; trade services</div>
+          <div class="sec" data-lo="3.5" data-hi="6">Food &amp; drink</div>
+          <div class="sec" data-lo="3.5" data-hi="6">Marketing &amp; creative</div>
+          <div class="sec" data-lo="3" data-hi="5">E-commerce</div>
+          <div class="sec" data-lo="3" data-hi="5">Construction</div>
+          <div class="sec" data-lo="2" data-hi="4">Retail</div>
+          <div class="sec" data-lo="3.5" data-hi="6">Something else</div>
+          </div>
+        </div>
+        <div class="calcstep">
+          <div class="stepnum"><b>2</b> Adjusted EBITDA</div>
+          <div class="ebitwrap"><span>£</span><input id="ebit" type="text" inputmode="numeric" placeholder="750,000" aria-label="Adjusted EBITDA"></div>
+          <p class="ebithint">Profit with your own pay set at the going rate for the job. If you are not sure, <a href="#structure">the worked sum is here</a>.</p>
+        </div>
+        <div class="calcstep">
+          <div class="stepnum"><b>3</b> Tick only what is true today</div>
+          <div class="cgroup">
+            <h4>The earnings</h4>
+            <label class="chk" data-g="0"><span class="box"></span><span>Monthly management accounts, closed within two weeks</span></label>
+            <label class="chk" data-g="0"><span class="box"></span><span>Management and statutory accounts reconcile</span></label>
+            <label class="chk" data-g="0"><span class="box"></span><span>No personal spending running through the business</span></label>
+            <label class="chk" data-g="0"><span class="box"></span><span>An adjusted EBITDA figure I could defend line by line</span></label>
+            <label class="chk" data-g="0"><span class="box"></span><span>My own pay is at, or already restated to, market rate</span></label>
+          </div>
+          <div class="cgroup">
+            <h4>The customers</h4>
+            <label class="chk" data-g="1"><span class="box"></span><span>No single customer above 15% of turnover</span></label>
+            <label class="chk" data-g="1"><span class="box"></span><span>Major relationships under written contract</span></label>
+            <label class="chk" data-g="1"><span class="box"></span><span>No change-of-control clause on material contracts</span></label>
+            <label class="chk" data-g="1"><span class="box"></span><span>More than half of turnover recurring or contracted</span></label>
+            <label class="chk" data-g="1"><span class="box"></span><span>Relationships held in a system, not in my head</span></label>
+          </div>
+          <div class="cgroup">
+            <h4>The founder <em>counts double</em></h4>
+            <label class="chk" data-g="2"><span class="box"></span><span>A named second-in-command who runs the day to day</span></label>
+            <label class="chk" data-g="2"><span class="box"></span><span>Pricing and hiring decided below me, at set thresholds</span></label>
+            <label class="chk" data-g="2"><span class="box"></span><span>Documented processes for how revenue is won and delivered</span></label>
+            <label class="chk" data-g="2"><span class="box"></span><span>I have taken two consecutive weeks off in the last year</span></label>
+            <label class="chk" data-g="2"><span class="box"></span><span>The plan for the next stage is written down and shared</span></label>
+          </div>
+          <div class="cgroup">
+            <h4>The paperwork</h4>
+            <label class="chk" data-g="3"><span class="box"></span><span>Share ownership clean, with no competing claim</span></label>
+            <label class="chk" data-g="3"><span class="box"></span><span>All intellectual property assigned to the company</span></label>
+            <label class="chk" data-g="3"><span class="box"></span><span>Written contracts for every employee and long-term contractor</span></label>
+            <label class="chk" data-g="3"><span class="box"></span><span>No undisclosed disputes, claims or regulatory issues</span></label>
+            <label class="chk" data-g="3"><span class="box"></span><span>Leases and key agreements assignable to a buyer</span></label>
+          </div>
+          
+        </div>
+      </div>
+      <div class="reveal">
+        <div class="calcout" id="calcout">
+          <p class="coempty">Pick a sector and put a number in, and this fills in as you tick.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="guide" id="guide">
+  <div class="wrap">
+    <p class="eyebrow reveal">Free · What happens when someone decides to buy you</p>
+    <h2 class="bigclaim reveal" style="font-size:clamp(34px,5.2vw,72px)">The 20 checks a buyer runs<br><span class="hl">on your business.</span></h2>
+    <div class="gwrap">
+      <div class="reveal">
+        <p class="glead">Most founders meet this list for the first time when a buyer's accountants are already going through the books, with terms agreed and leverage gone. So we published it.</p>
+        <p class="gsub"><strong>The 20 Checks A Buyer Runs On Your Business.</strong> Twenty-eight pages. The 20 checks a professional buyer runs on a founder-led business, the 6 findings that end a deal outright, and the 18-month sequence that fixes them, in the order it has to be done. Every figure sourced.</p>
+        <ul class="gbul">
+          <li>Why two businesses with identical profit are sold in <strong>two completely different markets</strong>, and the single factor that decides which one you are in <em>(page 4)</em></li>
+          <li>The valuation ladder, rung by rung, from <strong>2x to 12x and beyond</strong>, and exactly what it takes to climb each one <em>(page 7)</em></li>
+          <li>The quality of earnings adjustment almost every founder is caught by: why taking a modest salary <strong>costs you money on the day you sell</strong> <em>(page 10)</em></li>
+          <li>The customer concentration percentages that trigger a re-price, an earn-out, or a walk-away, with the actual numbers <em>(page 11)</em></li>
+          <li>Why buyers pay <strong>20% to 40% more</strong> for a business that does not need its founder, and the five things they inspect to decide <em>(page 12)</em></li>
+          <li>The <strong>6 findings that end deals outright</strong>, separated from the ones that only cost you money <em>(page 15)</em></li>
+          <li>The same profit priced two ways: <strong>£2.25m against £5.25m</strong>, and £7.35m once it is properly competed for, using the middle of each range rather than the flattering end <em>(page 16)</em></li>
+          <li>The 20 checks, scored, with what each band honestly means <em>(page 20)</em></li>
+        </ul>
+        <form class="gform capture" data-endpoint="" data-kind="guide">
+          <input type="text" name="name" placeholder="Your name" aria-label="Your name" required autocomplete="name">
+          <input type="email" name="email" placeholder="Your email" aria-label="Your email address" required autocomplete="email">
+          <button type="submit">Send Me The 20 Checks</button>
+          <p class="gnote">One email with the PDF attached. We write occasionally about the same subject and you can stop it in one click. We never share your details.</p>
+          <p class="gcall">Or ask us a question first: <a href="tel:+442079460100">020 7946 0100</a>, or <a href="https://wa.me/442079460100">WhatsApp</a>. Weekdays, and it is one of us who answers.</p>
+        </form>
+      </div>
+      <div class="reveal">
+        <div class="gstage"><div class="gbook" id="gbook">
+          <img src="assets/guide-cover.jpg" alt="Cover of The 20 Checks A Buyer Runs On Your Business, a 28 page guide from The Fourth Door" width="640" height="905" decoding="async">
+          <span class="gspine"></span><span class="gedge"></span><span class="gglare"></span>
+        </div></div>
+        <!-- PREVIEW ONLY: delete this link before launch, the email is the point -->
+        <a class="wabtn" style="border-color:var(--lime);color:var(--lime);margin-bottom:16px" href="the-20-checks.pdf" target="_blank">Read it now, no email</a>
+        <div class="gtags"><span class="gtag">28 pages</span><span class="gtag">PDF</span><span class="gtag">Sources published</span><span class="gtag">No cost</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="structure">
+  <div class="wrap">
+    <p class="eyebrow reveal">The Structure</p>
+    <h2 class="bigclaim reveal">How the partnership works.<br><span class="hl">We only do well when you do.</span></h2>
+    <div class="struct">
+      <div class="reveal" style="grid-column:1/-1">
+        <p class="eyebrow" style="margin-bottom:14px">What the market actually pays</p>
+        <div class="unitwarn">
+          <strong>Read this before the numbers.</strong> Every multiple below applies to <em>adjusted EBITDA</em>, not the profit figure in your accounts. They are two different numbers, and working from the wrong one is the most common reason a founder's expectation and a buyer's offer end up miles apart.
+        </div>
+      </div>
+      <div class="anchor reveal" style="grid-column:1/-1">
+        <div class="acell"><div class="an">2x to 4x</div><div class="au">adjusted EBITDA</div><div class="ac">What an owner-managed business is typically priced at, and it presses towards the bottom of that range where one customer is large, turnover is flat, or the owner is the brand.</div></div>
+        <div class="acell"><div class="an">7x to 12x</div><div class="au">adjusted EBITDA</div><div class="ac">What the same business earns once it runs without you and is properly competed for. UK trade buyers averaged 9.8x and private equity 12.2x in Q3 2024.</div></div>
+        <div class="acell"><div class="an">20-40%</div><div class="au">premium on the multiple</div><div class="ac">The published premium buyers pay for a business that does not depend on its founder. That gap is what we are paid out of.</div></div>
+        <div class="anchordef">
+          <span><b>EBITDA</b> is the profit in your accounts, before interest, tax and depreciation.</span>
+          <span><b>Adjusted EBITDA</b> is that profit with your own pay reset to what it would cost to employ somebody to do your job, and one-off costs stripped out. It is the number buyers multiply.</span>
+          <span class="warn">For most founder-led businesses these two numbers are not the same, so it is worth knowing which one you are holding.</span>
+        </div>
+      </div>
+      <div class="sum reveal" style="grid-column:1/-1">
+        <p class="sumhead">Worked through, one line at a time</p>
+        <div class="sumrow"><span>Profit shown in your accounts</span><b>£500,000</b></div>
+        <div class="sumrow"><span>You pay yourself</span><b>£50,000</b></div>
+        <div class="sumrow"><span>What it would cost to employ somebody to do your job</span><b>£120,000</b></div>
+        <div class="sumrow minus"><span>So the accounts are £70,000 light on that one wage. Take it off.</span><b>−£70,000</b></div>
+        <div class="sumrow total"><span>Adjusted EBITDA. This is the number a buyer multiplies.</span><b>£430,000</b></div>
+        <div class="sumfoot">
+          <div><span>Using the accounts figure</span><b>£500,000 × 3 = £1,500,000</b></div>
+          <div class="right"><span>Using the real figure</span><b>£430,000 × 3 = £1,290,000</b></div>
+        </div>
+        <p class="sumnote">Nothing about the business changed between those two figures. It is the same company either way, measured two different ways, and only one of them is the measure a buyer uses. UK transaction data, 2024 to 2026, sourced in full in <a href="#guide">the 20 checks</a>.</p>
+      </div>
+      <div class="reveal" style="grid-column:1/-1">
+        <p class="eyebrow" style="margin:52px 0 14px">The deal itself</p>
+        <p class="structlead">Everything above is the size of the prize. This is what we agree with you, and how we get paid out of it.</p>
+      </div>
+      <div class="scard reveal"><h3>A minority stake, earned</h3><p>We take 10% to 15% to begin with, vesting over time, rising to a maximum of 25% against agreed milestones. We earn our position by building, the same way you earned yours. You stay the majority owner and the chief executive, at every stage.</p></div>
+      <div class="scard reveal"><h3>Milestones, not promises</h3><p>Tranches of our equity are tied to agreed milestones: growth delivered, management in place, the founder out of the day-to-day. If the build does not happen, the equity does not vest.</p></div>
+      <div class="scard reveal"><h3>Straight about money</h3><p>Equity is the point: our real payday only arrives if yours does. Where fees apply they are modest and agreed deal by deal, in the first serious conversation, never after months of free strategy.</p></div>
+      <div class="scard reveal"><h3>A multi-year build, said plainly</h3><p>Making a business institution-ready takes years, and we would rather you heard that now than in month four. We work with a maximum of five businesses at any one time. That is arithmetic, not marketing.</p></div>
+    </div>
+    <div class="wallquote reveal">The fourth door does not dodge the sale. <em>It means buyers come to you,</em> not the other way round.</div>
+
+    <div class="faq">
+      <div class="fitem">
+        <button class="fq">So this just ends with private equity anyway?</button>
+        <div class="fa"><p>Yes, and that is the point. The three doors differ by terms, not destination. Sell early and you sell from below the line, at small-buyer multiples, on their terms. Walk through the fourth door and you sell above the line, years later, at institutional multiples, to buyers who came to you, with the choice of whether to sign at all. Never sell from weakness.</p></div>
+      </div>
+      <div class="fitem">
+        <button class="fq">Why equity instead of fees?</button>
+        <div class="fa"><p>Because incentives should point one direction: at the value of your business on the day a buyer names a number. Consultants get paid when they advise. We get paid when it works.</p></div>
+      </div>
+      <div class="fitem">
+        <button class="fq">How long does this take?</button>
+        <div class="fa"><p>Years, plural, and we say so up front. A business becomes institution-ready when it runs without its founder and its numbers survive a sceptical accountant. Neither happens in a quarter. Anyone promising ninety days is selling you a strategy document with a countdown timer.</p></div>
+      </div>
+      <div class="fitem">
+        <button class="fq">What does it cost to apply?</button>
+        <div class="fa"><p>Nothing but honesty. You apply, we diagnose, and both sides choose. Most conversations end right there. No partnership, no hard feelings, and you will still walk away knowing more about your business than when you arrived. If it is a no, we will tell you straight and tell you why.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="proof slide" id="proof" style="padding-top:60px">
+  <div class="wrap">
+    <p class="eyebrow reveal">The Record</p>
+    <h2 class="bigclaim reveal">No promises.<br><span class="hl">Just the record.</span></h2>
+    <div class="proofrow">
+        <div class="pcell reveal"><div class="n" data-count="250" data-pre="£" data-post="M">£250M</div><p>Turnover built in one business, from the ground up</p></div>
+        <div class="pcell reveal"><div class="n" data-count="500" data-pre="£" data-post="M+">£500M+</div><p>Value created along the way</p></div>
+        <div class="pcell reveal"><div class="n" data-count="65" data-post="+">65+</div><p>Acquisitions integrated, and made into one business</p></div>
+        <div class="pcell reveal"><div class="n" data-count="3000" data-post="+">3,000+</div><p>People led across the group</p></div>
+        <div class="pcell reveal"><div class="n">Hundreds</div><p>Senior leaders coached, and dozens of managing directors trained</p></div>
+        <div class="pcell reveal"><div class="n" data-count="100" data-post="+">100+</div><p>CEOs coached one to one, across fifteen years</p></div>
+      </div>
+    </div>
+  </section>
+
+<section class="apply" id="apply">
+  <div class="wrap">
+    <p class="eyebrow reveal">Apply</p>
+    <h2 class="reveal">You apply.<br>We both choose.</h2>
+    <div class="applygrid">
+      <div class="applyleft reveal">
+        <div class="bigq">Most applicants are declined. <em>The right ones are built.</em></div>
+        <p>You apply. We diagnose: questions first, answers second, and no prescription at all if we are not the right fit. Then we both choose.</p>
+        <p>We read every application and answer every one, including the declines. If we are not the right partner, we will say so plainly and point you toward the door that fits better.</p>
+      </div>
+      <form class="reveal capture" data-endpoint="" data-kind="application">
+        <label for="f1">Your name</label>
+        <input id="f1" name="name" type="text" placeholder="Full name" autocomplete="name" required>
+        <label for="f2">Your business, in one line</label>
+        <input id="f2" name="business" type="text" placeholder="What it does and who buys it" required>
+        <label>Annual turnover</label>
+        <div class="tset" role="radiogroup" aria-label="Annual turnover">
+          <label class="topt"><input type="radio" name="turnover" value="Under £1m" required><span>Under £1m</span></label>
+          <label class="topt"><input type="radio" name="turnover" value="£1m to £3m"><span>£1m to £3m</span></label>
+          <label class="topt"><input type="radio" name="turnover" value="£3m to £5m"><span>£3m to £5m</span></label>
+          <label class="topt"><input type="radio" name="turnover" value="£5m to £10m"><span>£5m to £10m</span></label>
+          <label class="topt"><input type="radio" name="turnover" value="£10m or more"><span>£10m+</span></label>
+        </div>
+        <label for="f4">The honest answer</label>
+        <textarea id="f4" name="answer" rows="4" placeholder="What happens to the business if you disappear for a month?" required></textarea>
+        <label for="f5">Anything else we should know</label>
+        <textarea id="f5" name="context" rows="4" placeholder="Where the business is now, where you want it to get to, and anything you would want us to understand before we speak. Optional."></textarea>
+        <div class="submitrow">
+          <button class="submit" type="submit">Submit Application</button>
+          <a class="wabtn" href="https://wa.me/442079460100"><svg class="waicon" viewBox="0 0 24 24" aria-hidden="true"><path d="M17.47 14.38c-.3-.15-1.75-.86-2.02-.96-.27-.1-.47-.15-.67.15-.2.3-.77.96-.94 1.16-.17.2-.35.22-.65.07-.3-.15-1.25-.46-2.38-1.47-.88-.78-1.47-1.75-1.64-2.05-.17-.3-.02-.46.13-.61.13-.13.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.02-.52-.07-.15-.67-1.61-.92-2.2-.24-.58-.48-.5-.67-.51h-.57c-.2 0-.52.07-.79.37-.27.3-1.04 1.01-1.04 2.470 1.5 1.07 2.95 1.22 3.15.15.2 2.1 3.2 5.08 4.49.71.3 1.26.49 1.69.63.71.23 1.36.19 1.87.12.57-.09 1.75-.72 2-1.41.25-.69.25-1.28.17-1.41-.07-.13-.27-.2-.57-.35z"/><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38c1.45.79 3.08 1.21 4.79 1.21h.01c5.46 0 9.91-4.45 9.91-9.91C21.96 6.45 17.5 2 12.04 2zm0 18.15h-.01c-1.52 0-3.02-.41-4.32-1.18l-.31-.18-3.21.84.86-3.13-.2-.32a8.2 8.2 0 01-1.26-4.37c0-4.54 3.7-8.23 8.24-8.23 2.2 0 4.27.86 5.83 2.41a8.19 8.19 0 012.41 5.83c0 4.54-3.7 8.23-8.24 8.23z"/></svg>WhatsApp</a>
+        </div>
+        
+        <p class="applynote">Fill it in honestly. We read every single one, and every single one gets an answer. We use what you send only to assess the application and reply to it, and nothing is shared with anyone else. If you would rather talk before applying, call <a href="tel:+442079460100">020 7946 0100</a> or email <a href="mailto:info@thefourthdoor.co.uk">info@thefourthdoor.co.uk</a>.</p>
+      </form>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="footmega">No More <em>Ceilings.</em></div>
+    <div class="footrow">
+      <div class="lock" style="color:var(--cream)"><svg class="mark rev" viewBox="0 0 64 64" aria-hidden="true"><rect class="m-fr" x="15" y="6" width="34" height="52" fill="none" stroke-width="7"/><polygon class="m-door" points="18.5,13 38.5,16.6 38.5,58.5 18.5,52"/><circle class="m-h" cx="34.2" cy="35" r="2.7"/></svg>THE FOURTH DOOR</div>
+      <div style="color:var(--cream);font-weight:700;font-size:14px;text-transform:uppercase;letter-spacing:1px">The business outgrows you. You outgrow the day-to-day.</div>
+      <small>© The Fourth Door. Built for founder-led businesses. Build 11.1</small>
+    </div>
+    <div class="footlegal">
+      <span><a href="mailto:info@thefourthdoor.co.uk">info@thefourthdoor.co.uk</a></span>
+      <span><a href="tel:+442079460100">020 7946 0100</a></span>
+      <span><a href="https://wa.me/442079460100">WhatsApp</a></span>
+      <span>thefourthdoor.co.uk</span>
+      <span>The Fourth Door, registered in England and Wales, company number 1123</span>
+      <span>Registered Test 1, 123</span>
+      <span><a href="/privacy">Privacy notice</a></span>
+    </div>
+  </div>
+</footer>
+
+<script>
+window.addEventListener('load',()=>document.body.classList.add('loaded'));
+
+
+/* ===== VALUATION CALCULATOR ===== */
+(function(){
+  const secs=document.getElementById('secs'); if(!secs) return;
+  const out=document.getElementById('calcout'), ebit=document.getElementById('ebit');
+  const checks=[...document.querySelectorAll('.chk')];
+  let lo=null, hi=null;
+
+  const money=n=>{
+    if(n>=1e6) return '£'+(n/1e6).toFixed(n/1e6<10?2:1).replace(/\.00$/,'')+'m';
+    return '£'+Math.round(n/1000)+'k';
+  };
+  const sizeFactor=e=>{
+    if(e<250000) return 0.60;
+    if(e<500000) return 0.72;
+    if(e<1000000) return 0.82;
+    if(e<2000000) return 0.92;
+    if(e<5000000) return 1.00;
+    return 1.08;
+  };
+  const sizeLabel=e=>{
+    if(e<250000) return 'under £250k of profit: the thinnest buyer pool there is';
+    if(e<500000) return '£250k to £500k: individual buyers, one at a time';
+    if(e<1000000) return '£500k to £1m: below where most institutions will look';
+    if(e<2000000) return '£1m to £2m: private equity starts returning calls';
+    if(e<5000000) return '£2m to £5m: a full field of institutional buyers';
+    return 'above £5m: the deepest buyer pool and the best leverage';
+  };
+
+  secs.addEventListener('click',e=>{
+    const t=e.target.closest('.sec'); if(!t) return;
+    secs.querySelectorAll('.sec').forEach(x=>x.classList.remove('on'));
+    t.classList.add('on'); lo=+t.dataset.lo; hi=+t.dataset.hi; render();
+  });
+  checks.forEach(c=>c.addEventListener('click',ev=>{ev.preventDefault();c.classList.toggle('on');render();}));
+  ebit.addEventListener('input',()=>{
+    const v=ebit.value.replace(/[^0-9]/g,'');
+    ebit.value = v ? (+v).toLocaleString('en-GB') : '';
+    render();
+  });
+
+  function render(){
+    const e=+ebit.value.replace(/[^0-9]/g,'')||0;
+    if(lo===null||!e){
+      out.innerHTML='<p class="coempty">Pick a sector and put a number in, and this fills in as you tick.</p>';
+      return;
+    }
+    const f=sizeFactor(e);
+    const aLo=Math.max(1.2, lo*f), aHi=Math.max(aLo+0.5, hi*f);
+    const founder=checks.filter(c=>c.dataset.g==='2'&&c.classList.contains('on')).length;
+    const others=checks.filter(c=>c.dataset.g!=='2'&&c.classList.contains('on')).length;
+    const ticked=founder+others;
+    const weighted=others+founder*2, pos=weighted/25;
+    const m=aLo+(aHi-aLo)*pos;
+    const r=(x)=>Math.max(1.2,x).toFixed(1);
+    const nowLo=Math.max(1.2,m-0.4), nowHi=m+0.4;
+    const potLo=Math.max(1.2,aHi-0.4), potHi=aHi+0.4;
+    const gap=(potLo*e)-(nowLo*e);
+
+    const missing=checks.filter(c=>!c.classList.contains('on'))
+      .sort((a,b)=>(b.dataset.g==='2')-(a.dataset.g==='2'))
+      .slice(0,3).map(c=>'<li>'+c.lastElementChild.textContent+'</li>').join('');
+
+    out.innerHTML =
+      '<div class="coscore">Your score <b style="font-family:Anton;font-size:15px;color:#D2FF00">'+ticked+' / 20</b></div>'+
+      '<div class="cobig">'+money(nowLo*e)+' to '+money(nowHi*e)+'</div>'+
+      '<div class="comult">'+r(nowLo)+'x to '+r(nowHi)+'x adjusted EBITDA, today</div>'+
+      '<div class="cosize">'+sizeLabel(e)+'</div>'+
+      '<div class="corow"><div class="lab">At 20 out of 20, same sector, same size</div>'+
+        '<div class="copot">'+money(potLo*e)+' to '+money(potHi*e)+'</div>'+
+        '<div class="comult">'+r(potLo)+'x to '+r(potHi)+'x adjusted EBITDA</div></div>'+
+      (gap>0?'<div class="cogap">The difference, on the same profit<b>'+money(gap)+'</b></div>':'')+
+      (missing?'<div class="corow"><div class="lab">Where to start</div><ul class="conext">'+missing+'</ul></div>':
+        '<div class="corow"><div class="lab">Where to start</div><p style="font-size:13.5px;color:#DCDED2;line-height:1.5">Twenty out of twenty. Either you are ready, or the questions deserve a second read.</p></div>')+
+      '<a class="cocta" href="#guide">Get the 28 pages behind this →</a>'+
+      '<p class="cocav">An indication, not a valuation, and not advice. Built from published UK transaction data for 2024 to 2026. Sector sets the band, size shifts it, the checks position you inside it. A competitive process with more than one bidder typically adds another 10% to 20% on top, and no calculator can price your specific business.</p>';
+  }
+})();
+
+/* MOBILE MENU. Exists only below 1180px; desktop markup and behaviour untouched. */
+(function(){
+  const b=document.querySelector('.burger'), m=document.getElementById('mobnav');
+  if(!b||!m) return;
+  const close=()=>{m.classList.remove('open');b.setAttribute('aria-expanded','false');
+    document.body.classList.remove('navopen');setTimeout(()=>{if(!m.classList.contains('open'))m.hidden=true;},260);};
+  const open=()=>{m.hidden=false;requestAnimationFrame(()=>m.classList.add('open'));
+    b.setAttribute('aria-expanded','true');document.body.classList.add('navopen');};
+  b.addEventListener('click',()=>m.classList.contains('open')?close():open());
+  m.querySelectorAll('a').forEach(a=>a.addEventListener('click',close));
+  document.addEventListener('keydown',e=>{if(e.key==='Escape'&&m.classList.contains('open'))close();});
+  addEventListener('resize',()=>{if(innerWidth>1180&&m.classList.contains('open'))close();});
+})();
+
+/* THE BOOK: tilts towards the cursor, settles back when you leave */
+(function(){
+  const bk=document.getElementById('gbook'); if(!bk) return;
+  if(matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+  const stage=bk.parentElement;
+  stage.addEventListener('mousemove',e=>{
+    const r=stage.getBoundingClientRect();
+    const x=(e.clientX-r.left)/r.width-.5, y=(e.clientY-r.top)/r.height-.5;
+    bk.style.transition='transform .12s ease-out';
+    bk.style.transform='rotateY('+(-14+x*26)+'deg) rotateX('+(4-y*16)+'deg) translateZ(26px)';
+  });
+  stage.addEventListener('mouseleave',()=>{
+    bk.style.transition='transform .6s cubic-bezier(.2,.7,.3,1)';
+    bk.style.transform='rotateY(-14deg) rotateX(4deg)';
+  });
+  bk.addEventListener('click',()=>{
+    const f=document.querySelector('#guide input[name=name]'); if(f) f.focus();
+  });
+})();
+
+/* FORM HANDLER. A form with no endpoint refuses loudly rather than
+   swallowing a lead. Set data-endpoint on each form to go live. */
+document.querySelectorAll('form.capture').forEach(f=>{
+  f.addEventListener('submit',async e=>{
+    e.preventDefault();
+    const ep=(f.dataset.endpoint||'').trim();
+    const kind=f.dataset.kind||'form';
+    const say=(msg,ok)=>{
+      const box=document.createElement('p');
+      box.className=ok?'gdone':'todo';
+      box.style.marginTop='16px';
+      box.textContent=msg;
+      f.appendChild(box);
+    };
+    if(!ep){
+      /* PREVIEW ONLY: this whole guard can stay, it just never fires once data-endpoint is set */
+      say('Preview site. The form is not connected yet, so nothing was sent and nothing was stored.',false);
+      return;
+    }
+    const btn=f.querySelector('button'); if(btn){btn.disabled=true;btn.textContent='Sending...';}
+    try{
+      const r=await fetch(ep,{method:'POST',headers:{'Accept':'application/json'},body:new FormData(f)});
+      if(!r.ok) throw new Error(r.status);
+      f.innerHTML = kind==='guide'
+        ? '<p class="gdone">On its way. Check your inbox in the next minute or two, and your spam folder if it is not there.</p>'
+        : '<p style="font-size:20px;font-weight:800;color:var(--cream)">Received. We read it properly and come back to you either way. If it is a no, we will tell you straight and tell you why.</p>';
+    }catch(err){
+      if(btn){btn.disabled=false;btn.textContent = kind==='guide'?'Send Me The Guide':'Submit Application';}
+      say('That did not send. Please try again, or email us directly.',false);
+    }
+  });
+});
+
+const obs=new IntersectionObserver(es=>{es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('on');
+  e.target.querySelectorAll('[data-count]').forEach(runCount);
+  if(e.target.hasAttribute('data-count'))runCount(e.target);
+  obs.unobserve(e.target)}})},{threshold:.15});
+document.querySelectorAll('.reveal').forEach(el=>obs.observe(el));
+
+function runCount(el){
+  if(el.dataset.done)return;el.dataset.done=1;
+  const end=+el.dataset.count,pre=el.dataset.pre||'',post=el.dataset.post||'';
+  const dur=1100,t0=performance.now();
+  const reduce=matchMedia('(prefers-reduced-motion: reduce)').matches;
+  if(reduce){el.textContent=pre+end+post;return}
+  (function tick(t){const p=Math.min((t-t0)/dur,1);
+    el.textContent=pre+Math.round(end*(1-Math.pow(1-p,3)))+post;
+    if(p<1)requestAnimationFrame(tick)})(t0);
+}
+
+const secs=[...document.querySelectorAll('section, header')];
+const rail=[...document.querySelectorAll('.rail a')];
+const so=new IntersectionObserver(es=>{es.forEach(e=>{if(e.isIntersecting){
+  rail.forEach(r=>r.classList.toggle('on',r.dataset.r===e.target.id))}})},{threshold:.35});
+secs.forEach(s=>so.observe(s));
+
+const verdicts=[
+ ["Either rare, or not quite honest.","Nothing ticked means the business already runs without you, which makes you rare, or it means the questions deserved a second read. Either way, worth a conversation."],
+ ["The ceiling is forming.","One of these alone is survivable. But buyers do not price what is survivable, they price what is dependable, and dependable means none of them."],
+ ["You are becoming the ceiling.","Two of these and the business is quietly reshaping itself around you. It feels like control. To anyone thinking about buying the business, it reads as risk."],
+ ["You are the ceiling.","Three ticked. The good news is this is a build problem, not a talent problem, and build problems can be built through. That is literally our whole job."],
+ ["You are the ceiling. Fully load-bearing.","All four. Your business is exactly as big as your capacity, and priced accordingly. The honest next step is the application below, and the honest timeline is years. Both are worth it."]
+];
+const qs=[...document.querySelectorAll('[data-q]')];
+const vh=document.querySelector('#verdict .vhead'),vp=document.querySelector('#verdict p');
+qs.forEach(q=>q.addEventListener('click',()=>{q.classList.toggle('on');
+  q.setAttribute('aria-checked',q.classList.contains('on'));
+  const n=qs.filter(x=>x.classList.contains('on')).length;
+  vh.textContent=verdicts[n][0];vp.textContent=verdicts[n][1];if(vchip)vchip.hidden=n<2;
+}));
+
+const dc=[...document.querySelectorAll('.dcard')];
+function stack(){dc.forEach((c,i)=>{const r=c.getBoundingClientRect();const nxt=dc[i+1];let buried=false;
+  if(nxt){const nr=nxt.getBoundingClientRect();buried=nr.top<r.top+56}
+  c.classList.toggle('buried',buried);
+  c.classList.toggle('active',!buried&&r.top<320&&r.bottom>200)})}
+document.addEventListener('scroll',()=>requestAnimationFrame(stack),{passive:true});stack();
+
+const md=document.querySelector('.megadoor');
+if(md&&!matchMedia('(prefers-reduced-motion: reduce)').matches){
+  const swing=()=>{const t=Math.min(Math.max(window.scrollY/480,0),1);
+    md.style.setProperty('--dopen',t.toFixed(3));
+    md.style.transform = innerWidth>760 ? 'translateY('+(window.scrollY*.06)+'px)' : 'none';};
+  document.addEventListener('scroll',()=>requestAnimationFrame(swing),{passive:true});
+  swing();
+}
+
+if(!matchMedia('(prefers-reduced-motion: reduce)').matches){
+  document.querySelectorAll('.chip,button.submit,.navcta').forEach(el=>{
+    el.addEventListener('mousemove',e=>{
+      const r=el.getBoundingClientRect();
+      const dx=(e.clientX-r.left-r.width/2)*.18, dy=(e.clientY-r.top-r.height/2)*.28;
+      el.style.transform='translate('+dx+'px,'+dy+'px)';
+    });
+    el.addEventListener('mouseleave',()=>{el.style.transform='';});
+  });
+}
+
+qs.forEach(q=>{q.setAttribute('tabindex','0');q.setAttribute('role','switch');q.setAttribute('aria-checked','false');
+  q.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();q.click()}});
+});
+
+document.querySelectorAll('.fitem').forEach(f=>{
+  f.querySelector('.fq').addEventListener('click',()=>{
+    const open=f.classList.contains('open');
+    document.querySelectorAll('.fitem').forEach(x=>{x.classList.remove('open');x.querySelector('.fa').style.maxHeight=null});
+    if(!open){f.classList.add('open');const a=f.querySelector('.fa');a.style.maxHeight=a.scrollHeight+'px'}
+  });
+});
+
+const pbar=document.querySelector('.pbar i');
+if(pbar){document.addEventListener('scroll',()=>requestAnimationFrame(()=>{
+  const d=document.documentElement;
+  pbar.style.width=(window.scrollY/(d.scrollHeight-innerHeight)*100)+'%';
+}),{passive:true});}
+
+const vchip=document.querySelector('.vchip');
+
+if(!matchMedia('(prefers-reduced-motion: reduce)').matches){
+  document.querySelectorAll('.build').forEach(b=>{
+    b.style.transition='transform .25s ease';
+    b.addEventListener('mousemove',e=>{
+      const r=b.getBoundingClientRect();
+      const rx=((e.clientY-r.top)/r.height-.5)*-5, ry=((e.clientX-r.left)/r.width-.5)*5;
+      b.style.transform='perspective(900px) rotateX('+rx+'deg) rotateY('+ry+'deg)';
+    });
+    b.addEventListener('mouseleave',()=>{b.style.transform='';});
+  });
+}
+
+const bands=[...document.querySelectorAll('.stband')];
+const hls=[...document.querySelectorAll('.hl')];
+if(!matchMedia('(prefers-reduced-motion: reduce)').matches){
+  const scrub=()=>{
+    bands.forEach(b=>{
+      const ws=b.querySelectorAll('span');
+      const r=b.getBoundingClientRect();
+      const p=Math.min(Math.max((innerHeight-r.top)/(innerHeight*.8),0),1);
+      const n=Math.round(p*ws.length);
+      ws.forEach((w,i)=>w.classList.toggle('lit',i<n));
+    });
+    hls.forEach(h=>{
+      if(h.dataset.full)return;                 /* latched at full, never un-paints */
+      const r=h.getBoundingClientRect();
+      const p=Math.min(Math.max((innerHeight*.92-r.top)/(innerHeight*.30),0),1);
+      h.style.setProperty('--hp',p.toFixed(3));
+      if(p>=1)h.dataset.full=1;
+    });
+  };
+  document.addEventListener('scroll',()=>requestAnimationFrame(scrub),{passive:true});
+  scrub();
+}else{hls.forEach(h=>h.style.setProperty('--hp',1));}
+</script>
+</body>
+</html>

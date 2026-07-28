@@ -1,0 +1,3 @@
+# Netlify: not required for a single-page site, kept for future routes
+/what-its-worth   /#worth    301
+/month-test       /#test     301
